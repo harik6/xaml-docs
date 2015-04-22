@@ -63,7 +63,7 @@ The example below shows how to bind the label's content to a custom property fro
 				<telerik:ChartSeriesLabelDefinition HorizontalAlignment="Center" VerticalAlignment="Center" >
 					<telerik:ChartSeriesLabelDefinition.Template>
 						<DataTemplate>
-							<TextBlock Foreground="DarkBlue" Text="{Binding DataItem.LabelProperty}" />
+							<TextBlock Foreground="Red" Text="{Binding DataItem.LabelProperty}" />
 						</DataTemplate>
 					</telerik:ChartSeriesLabelDefinition.Template>
 				</telerik:ChartSeriesLabelDefinition>
